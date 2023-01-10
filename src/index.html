@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo</title>
+  <link rel="stylesheet" type="text/css" href="./style/todo.css">
+  <script src="https://kit.fontawesome.com/0cc54b4bc1.js" crossorigin="anonymous"></script>
+  <script defer src="./js/todo.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>To-Do List</h1>
+  </header>
+  <main>
+    <form autocomplete="off">
+      <input id="add__todo" type="text" data-testid="txtTodoItemTitle" type="text" placeholder="Add new task">
+      <button id="add__button" data-testid="btnAddTodo">Add</button>
+    </form>
+    <div>
+      <ul class="todo__list" data-testid="todoList">
+      </ul>
+    </div>
+  </main>
+</body>
+
+</html>
